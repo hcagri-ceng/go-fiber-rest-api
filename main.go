@@ -31,5 +31,8 @@ func main() {
 
 	app.Post("/todos", services.CreateTodo)
 	app.Get("/todos", services.GetTodos)
+	app.Get("/todos/:todoID", services.GetTodo)
+	app.Put("/todos/:todoID", services.UpdateTodo)
+	app.Delete("/todos/:todoID", services.DeleteTodo)
 	app.Listen("localhost:3000")
 }
