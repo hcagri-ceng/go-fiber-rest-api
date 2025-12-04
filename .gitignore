@@ -8,16 +8,16 @@
 *.dylib
 *.test
 
-# OS / editor files
+
 .DS_Store
 .vscode/
 .idea/
 
-# Logs
+
 *.log
 
-# GORM / SQLite database
+
 *.db
 
-# Mod cache (genelde gerekli değil ama istersen eklenir)
-pkg/
+
+
